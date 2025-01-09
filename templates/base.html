@@ -15,8 +15,9 @@
     {% endblock metadata %}
 </head> 
 <body>
-    <div class = "backman"></div>
+    {% include 'header.html' %}
     {% block maincontent %}
+
     {% endblock maincontent %}
     {% block script %}
     <!-- Required jQuery first, then Bootstrap Bundle JS -->
