@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}Portfolio{% endblock title %}
+    {% block metadata %}
+    <!-- card css -->
+    <link rel="stylesheet" href="{% static '' %}" />
+    {% endblock metadata %}
+</head> 
+<body>
+    {% include 'main/main_header.html' %}
+    {% block maincontent %}
+
+
+    {% endblock maincontent %}
+    {% block script %}
+    <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'main/js/bootstrap.bundle.min.js' %}"></script>
+    {% endblock script %}
+</body>
+</html>
