@@ -17,8 +17,9 @@
 <body>
     {% include 'header.html' %}
     {% block maincontent %}
-
+    {% include 'main.html' %}
     {% endblock maincontent %}
+    {% include 'footer.html' %}
     {% block script %}
     <!-- Required jQuery first, then Bootstrap Bundle JS -->
     <script src="{% static 'js/jquery.min.js' %}"></script>
