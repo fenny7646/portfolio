@@ -69,6 +69,24 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
+
+if os.path.isdir(TEMPLATES_DIR):
+    print("Templates is reachable.")
+else:
+    print("Templates is not reachable.")
+
+if os.path.isdir(STATIC_DIR):
+    print("Static is reachable.")
+else:
+    print("Static is not reachable.")
+if os.path.isdir(MEDIA_DIR):
+    print("Media is reachable.")
+else:
+    print("Media is not reachable.")
+
 WSGI_APPLICATION = 'Portfolio.wsgi.application'
 
 
@@ -128,16 +146,3 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-
-TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
-
-if os.path.isdir(TEMPLATES_DIR):
-    print("Templates is reachable.")
-else:
-    print("Templates is not reachable.")
-
-if os.path.isdir(STATIC_DIR):
-    print("Static is reachable.")
-else:
-    print("Static is not reachable.")
