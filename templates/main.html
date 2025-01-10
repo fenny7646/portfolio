@@ -7,9 +7,8 @@
     </div>
 
 
-    <div class="px-4 py-5" id="icon-grid">
-        <h2 class="pb-0 px-5 border-bottom">Programming Languages</h2>
-    
+    <div class="px-4 py-1" id="icon-grid">
+        <h2 class="pb-0 mb-3 px-5 border-bottom">Programming Languages</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
           <div class="col d-flex align-items-start">
             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
@@ -18,54 +17,124 @@
               <p>Experienced in Python bringing skills to improve code quality, maintainability and functionality. Skilled in Test-Driven Development with Agile methodology</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
         </div>
       </div>
+
+      <div class="modal modal-sheet position-static d-block p-4 py-md-5" tabindex="-1" role="dialog" id="modalTour">
+        <div class="row gy-4 d-flex align-items-stretch">
+          <!-- Frontend Technologies -->
+          <div class="col-md-4 d-flex">
+            <div class="modal-dialog w-100" role="document">
+              <div class="modal-content rounded-4 shadow h-100">
+                <div class="modal-body p-5">
+                  <h2 class="fs-3 fw-bold mb-0">Frontend Technologies</h2>
+                  <ul class="d-grid gap-4 my-5 list-unstyled small">
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48"><use xlink:href="#grid-fill"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Grid view</h5>
+                        Not into lists? Try the new grid view.
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Bookmarks</h5>
+                        Save items you love for easy access later.
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-primary flex-shrink-0" width="48" height="48"><use xlink:href="#film"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Video embeds</h5>
+                        Share videos wherever you go.
+                      </div>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-primary mt-auto w-100">Great, thanks!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Backend Technologies -->
+          <div class="col-md-4 d-flex">
+            <div class="modal-dialog w-100" role="document">
+              <div class="modal-content rounded-4 shadow h-100">
+                <div class="modal-body p-5">
+                  <h2 class="fs-3 fw-bold mb-0">Backend Technologies</h2>
+                  <ul class="d-grid gap-4 my-5 list-unstyled small">
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48"><use xlink:href="#grid-fill"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Grid view</h5>
+                        Not into lists? Try the new grid view.
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Bookmarks</h5>
+                        Save items you love for easy access later.
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-primary flex-shrink-0" width="48" height="48"><use xlink:href="#film"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Video embeds</h5>
+                        Share videos wherever you go.
+                      </div>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-primary mt-auto w-100">Great, thanks!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Database -->
+          <div class="col-md-4 d-flex">
+            <div class="modal-dialog w-100" role="document">
+              <div class="modal-content rounded-4 shadow h-100">
+                <div class="modal-body p-5">
+                  <h2 class="fs-3 fw-bold mb-0">Databases</h2>
+                  <ul class="d-grid gap-4 my-5 list-unstyled small">
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48"><use xlink:href="#grid-fill"></use></svg>
+                      <div>
+                        <h5 class="mb-0">Relational</h5>
+                        <ul>
+                          <li>PostgreSQL</li>
+                          <li>MySQL</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"></use></svg>
+                      <div>
+                        <h5 class="mb-0">NoSQL</h5>
+                        <ul>
+                          <li>MongoDB</li>
+                          <li>Firebase Firestore</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="d-flex gap-4">
+                      <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"></use></svg>
+                      <div>
+                        <h5 class="mb-0">ORM</h5>
+                        <ul>
+                          <li>PonyORM(Basics)</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-primary mt-auto w-100">Great, thanks!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div> <!-- End of row -->
+      </div> <!-- End of modal -->
+      
